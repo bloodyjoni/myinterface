@@ -14,7 +14,7 @@ $(function(){
 		next.addClass('selectedimg');
 		current.removeClass('selectedimg');
 		$('#dialogcontent').empty().append('<a href="Eventos/'+ name +'.html"><img src="' + src + '" style="width:100%; height:100%;"/></a>' );
-		$('#dialoghead').empty().append('<center><h2>' + alt + '</h2></center>' );
+		$('#dialoghead').empty().append('<center><h3>' + alt + '</h3></center>' );
 	} 
 	
 	function goprev() {
@@ -31,7 +31,7 @@ $(function(){
 		prev.addClass('selectedimg');
 		current.removeClass('selectedimg');
 		$('#dialogcontent').empty().append('<a href="Eventos/'+ name +'.html"><img src="' + src + '" style="width:100%; height:100%;"/></a>' );
-		$('#dialoghead').empty().append('<center><h2>' + alt + '</h2></center>' );
+		$('#dialoghead').empty().append('<center><h3>' + alt + '</h3></center>' );
 	}
 	
 	$('.gallerycontent img').bind('tap',function(event, ui){
@@ -39,7 +39,7 @@ $(function(){
 		var alt = $(this).attr("alt");
 		var name = $(this).attr("name");
 		$('#dialogcontent').empty().append('<a href="Eventos/'+ name +'.html"><img src="' + src + '" style="width:100%; height:100%;"/></a>' );
-		$('#dialoghead').empty().append('<center><h4>' + alt + '</h4></center>' );
+		$('#dialoghead').empty().append('<center><h3>' + alt + '</h3></center>' );
 		$(this).parent().addClass('selectedimg');
 		});
 				

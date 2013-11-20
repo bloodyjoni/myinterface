@@ -8,7 +8,10 @@
     padding:3px;
     background-color:#222;
 }
- 
+#imgshow{
+	height:40%;
+	width:auto;
+} 
 #prevbtn, #nextbtn {
     margin:10px 15px;
 }

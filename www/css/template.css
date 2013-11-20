@@ -1,0 +1,16 @@
+
+#imgtempl {
+	height:25%;
+	width:25%;
+	float:left;
+	margin-right:5%;
+}
+#ptmpl{
+	float:right;
+}
+.thumb{
+	margin:5px	5px	5px	5px;
+	height:35px;
+	width:35px;
+	float:left;
+}
