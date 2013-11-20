@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"  href="css/jquery.mobile-1.3.2.css">
+    <link rel="stylesheet"  href="css/slider.css">
+    <script src="js/jquery-1.9.1.js"></script>
+    <script src="js/jquery.mobile-1.3.2.js"></script>
+	<script src="js/slider.js"></script>
+    <title>PhoneGap</title>
+   <!-- <script type="text/javascript" charset="utf-8" src="js/cordova.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/index.js"></script>
+    <script type="text/javascript" src="js/backgroundService.js"></script>
+	<script type="text/javascript" src="js/myService.js"></script>
+	<script type="text/javascript" src="js/Pushnotif.js"></script>
+    <script type="text/javascript" src="js/PushNotification.js"></script>
+    <script type="text/javascript" src="js/Initialize.js"></script>
+    -->
+    <script>
+
+
+</script>	
+ </head>
+ <body>
+ 	<div id="main" data-role="page" data-theme="a" >
+        <div data-role="header" data-position="fixed">
+            <h1>Hello PhoneGap</h1>
+            <a href="options.html" data-icon="gear" class="ui-btn-right" data-transition="flip" data-direction="reverse">Options</a>
+            <div id="deviceready" class="blink">
+                    <p class="event listening">Connecting to Device</p>
+                    <p class="event received">Device is Ready</p>
+            </div>
+        </div>
+       <div data-role="content">
+   
+  	<h2>Proximos Eventos</h2>
+ <!--<div id="proximosEventos" data-role="controlgroup"data-type="horizontal">-->
+<div class="gallerycontent" style="display: none">
+    <a  href="#imgshow"  class="first">
+      <img src="images/perSon.jpg" alt="Permitido Soñar"  name="perSon"/>
+    </a>
+     <a  href="#imgshow"  >
+      <img src="images/1.jpg" alt="Within Temptation - The Unforgiving"  name="perSon"/>
+    </a>
+    <a href="#imgshow"  >
+      <img src="images/2.jpg" alt="Nightwish - Imaginarium" name="perSon"/>
+    </a>
+    <a href="#imgshow"   class="last">
+      <img src="images/3.jpg" alt="Epica - Design Your Universe" name="perSon"/>
+    </a>
+    <script>
+   
+		</script>
+    </div>
+    
+    <div id="imgshow"  data-theme="a">
+
+	<div id="Sliderheader" data-theme="a">
+		<div id="dialoghead"></div>
+	</div><!-- /header -->
+	
+	<div data-role="content" data-theme="a">
+		<center><div id="dialogcontent"></div></center>
+	</div>
+	
+	<div id="Sliderfooter">
+<center><a href="#" id="prevbtn" data-role="button" data-iconpos="notext" data-icon="arrow-l" data-inline="true">Previous</a>
+				<a href="#" id="nextbtn" data-role="button" data-iconpos="notext" data-icon="arrow-r" data-inline="true">Next</a>
+	</center>
+	</div>
+</div>
+    
+<!--</div>-->
+</div>
+<div data-role="footer"data-position="fixed">
+            <div data-role="navbar"  class="ui-state-persist">
+                <ul>
+                <li><a href="#main" data-role="button" data-transition="fade" class="ui-btn-active ui-state-persist">Menu</a></li>
+                <li><a href="news.html" data-role="button" data-transition="pop" >Messages</a></li>
+                <li><a href="tabs/opcion.html" data-role="button" >galeria</a></li>	
+                </ul>
+            </div>	
+        </div>
+        </div>
+<div id="messages" data-role="page" data-theme="a">
+        <div data-role="header">
+            <h1>Hello PhoneGap</h1>
+            <h2>Messages</h2>           
+        </div>
+        <div data-role="content">
+            <table id="msgtable">
+            <tr>
+            <th>MsgObject</th>
+            <th>URL</th>		
+            </tr>
+            </table>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar"  class="ui-state-persist">
+                <ul>
+                    <li><a href="#main" data-role="button" >Menu</a></li>
+                    <li><a href="news.html" data-role="button" >Messages</a></li>
+                    <li><a href="tabs/opcion.html" data-role="button" >galeria</a></li>	
+                </ul>
+            </div>	
+        </div>
+</div>
+
+</body>
+
+</html>
+
